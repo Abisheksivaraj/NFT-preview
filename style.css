@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: hsl(216, 50%, 16%);
+  width: 16rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.image {
+  width: 14rem;
+}
+
+.image a:hover {
+  background-color: hsl(178, 100%, 50%);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.img-ethereum {
+  border-radius: 10px;
+}
+
+.content h3 {
+  padding: 1rem 0rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.content a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.content a:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.content p {
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 1rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+
+.content-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ether-cnt,
+.time-cnt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.ether-img {
+  display: inline-block;
+  width: 0.5rem;
+}
+
+.ether-img img {
+  width: 100%;
+}
+
+.ether-cnt small {
+  color: hsl(178, 100%, 50%);
+  padding-left: 0.5rem;
+}
+.time-img {
+  display: inline-block;
+  width: 0.7rem;
+}
+
+.time-img img {
+  width: 100%;
+}
+
+.time-cnt small {
+  color: hsl(215, 51%, 70%);
+  padding-left: 0.5rem;
+}
+
+.horizontal-line {
+  size: 5px;
+  margin: 1rem 0rem 0rem;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.content-footer {
+  margin: 0.8rem 0rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-img {
+  width: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  align-self: center;
+}
+
+.content-footer small {
+  color: hsl(215, 51%, 70%);
+  padding: 0rem 0.8rem;
+}
